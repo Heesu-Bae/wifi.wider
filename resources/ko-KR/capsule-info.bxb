@@ -1,0 +1,9 @@
+capsule-info {
+  display-name (와이더)
+  dispatch-name (와이더)
+  developer-name (GYHS)
+  icon-asset (./images/bixby_launcher.png)
+  description ("내 주변 공공 Wi-Fi 위치와 정보를 알려주는 캡슐입니다.")
+  website-url (https://example.com/)
+  terms-url (https://example.com/terms-of-use/)
+}

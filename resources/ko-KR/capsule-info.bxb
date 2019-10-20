@@ -4,6 +4,11 @@ capsule-info {
   developer-name (GYHS)
   icon-asset (./images/bixby_launcher.png)
   description ("내 주변 공공 Wi-Fi 위치와 정보를 알려주는 캡슐입니다.")
-  website-url (https://example.com/)
-  terms-url (https://example.com/terms-of-use/)
+  website-url (https://https://github.com/Heesu-Bae/wifi.wider)
+  search-keywords {
+    keyword (와이더)
+    keyword (Wider)
+    keyword (와이파이)
+    keyword (wifi)
+  }
 }

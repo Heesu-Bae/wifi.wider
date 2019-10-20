@@ -1,0 +1,43 @@
+result-view {
+  match: Wifi(this)
+
+  message {
+    if(size(this) == 1){
+      if(this.flag){
+        template ("[#{value(this.username)} 님,] 주변 1km이내의 공용 Wi-fi를 확인해보세요!")
+      }else{
+        template ("현재 위치로부터 1kmm 내의 공용 Wi-Fi를 확인해보세요!")
+      }     
+    }else{     
+      if(this.flag){
+        template ("[#{value(this.username)} 님,] 주변 1km이내의 공용 Wi-fi들을 가져와 보았어요!")
+      }else{
+        template ("맛집들을 가져와 보았어요.")
+      }    
+    }   
+  }
+
+  render {
+    if(size(this) == 1){
+      layout{
+        layout-macro (WifiMap){
+          param(info){
+            expression (this)
+          }
+        }
+      }
+      
+    }else{
+      list-of (this){
+        where-each (item){
+          layout-macro (WifiList){
+            param(wifi){
+              expression (item)
+            }
+          }
+        }
+      }
+    }
+    
+  }
+}

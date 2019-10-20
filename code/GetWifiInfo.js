@@ -18,7 +18,7 @@ function deg2rad(deg) {
   return deg * (Math.PI/180)
 }
 
-module.exports.function = function getRestautantInfo (near, point, self) {
+module.exports.function = function getWifiInfo (near, point, self) {
   const dummyData = require("./data/Wifi_data_json.js");
   const console = require('console');
   
@@ -33,9 +33,9 @@ module.exports.function = function getRestautantInfo (near, point, self) {
     
     for(let i = 0; i < dummyData.length; i++){
       distance = getDistance(point.point.latitude, point.point.longitude,
-                             dummyData[i].point.point.latitude, dummyData[i].point.point.longitude);      
+                             dummyData[i].latitude, dummyData[i].longitude);      
       
-      if(distance < 2){
+      if(distance < 1){
         if(self.nameInfo != undefined){
           if(self.nameInfo.nickName){
             dummyData[i].username = self.nameInfo.nickName;

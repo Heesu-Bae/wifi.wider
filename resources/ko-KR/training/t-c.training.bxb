@@ -1,0 +1,5 @@
+train (t-cnwboov0bd5mz1f4cl3u8dfl6) {
+  utterance ([g:Wifi] 와이더에서, 와이파이 찾아줘)
+  plan (Y2Bk4C/PTMvUK89MSS3SCwcyGUCAEUQAAA==)
+  last-modified (1571560577423)
+}

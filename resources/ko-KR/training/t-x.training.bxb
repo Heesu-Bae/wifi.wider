@@ -1,0 +1,10 @@
+train (t-xvpoi12i1z4hka8699fs3ky1k) {
+  utterance ("[g:Wifi] 와이더에서, (주위)[v:Near:Nearby]에 와이파이 있어?")
+  plan (Y2Bh4C/PTMvUK89MSS3SCwcyGaSQBNxTS0BiPvnJiSWZ+XkMvGWZZXrFqTlpesFAAkWvX2piEQMzAyMDE5BkANIgCAFMQAwUAwA=)
+  last-modified (1571561057568)
+}
+train (t-xym4b7vvfnw9fughyzprqvufd) {
+  utterance ([g:wifi.wider.Wifi] 와이더에서, 와이파이 어딨어?)
+  plan (Y2Bk4C/PTMvUK89MSS3SCwcyGUCAEUQAAA==)
+  last-modified (1571560942980)
+}

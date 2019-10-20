@@ -1,0 +1,3 @@
+text (WifiSSID) {
+  description (__DESCRIPTION__)
+}

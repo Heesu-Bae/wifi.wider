@@ -14,4 +14,16 @@ capsule {
     modern-default-view-behavior
     use-input-views-for-selection-list-detail
   }
+    
+  permissions{
+    user-profile-access
+  }
+  
+  capsule-imports {
+    import (viv.entity) { version(3.19.8) as (entity) }
+    import (viv.core){ as (core) version-from (entity)}
+    import (viv.common) { as (common) version-from (entity) }
+    import (viv.geo) { as (geo) version-from (entity) }
+    import (viv.self) { version(3.5.122) as (self) }
+  }
 }

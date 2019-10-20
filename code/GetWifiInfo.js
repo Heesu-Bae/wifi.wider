@@ -19,7 +19,7 @@ function deg2rad(deg) {
 }
 
 module.exports.function = function getWifiInfo (near, point, self) {
-  const dummyData = require("./data/Wifi_data_json.js");
+  const dummyData = require("./data/Wifi_data.js");
   const console = require('console');
   
   // console.log(near);
@@ -34,9 +34,9 @@ module.exports.function = function getWifiInfo (near, point, self) {
     
     for(let i = 0; i < dummyData.length; i++){
       distance = getDistance(point.point.latitude, point.point.longitude,
-                             dummyData[i].point.point.latitude, dummyData[i].point.point.longitude);      
+                             dummyData[i].point.point.latitude, dummyData[i].point.point.longitude);  
       
-      if(distance < 1){
+      if(distance < 40){
         if(self.nameInfo != undefined){
           if(self.nameInfo.nickName){
             dummyData[i].username = self.nameInfo.nickName;
@@ -55,7 +55,7 @@ module.exports.function = function getWifiInfo (near, point, self) {
         temp_list.push(dummyData[i].lnmadr);
         temp_list.push(dummyData[i].point);
         temp_list.push(dummyData[i].flag);
-
+        console.log(temp_list);
         result.push(temp_list);
       }   
     }
@@ -67,9 +67,13 @@ module.exports.function = function getWifiInfo (near, point, self) {
       temp_list.push(dummyData[i].username);
       temp_list.push(dummyData[i].wifissid);
       temp_list.push(dummyData[i].rdnmadr);
+      if(dummyData[i].lnmadr === "") {
+        dummyData[i].lnmadr = "none";
+      }
       temp_list.push(dummyData[i].lnmadr);
       temp_list.push(dummyData[i].point);
       temp_list.push(dummyData[i].flag);
+      console.log(temp_list);
 
       result.push(temp_list);
     }

@@ -1,0 +1,19 @@
+layout-macro-def (WifiList) {
+  params {
+    param (wifi) {
+      type (Wifi)
+      min (Required) max (One)
+    }
+  }
+  content {
+    cell-card {
+      slot2 {
+          content {
+              order (PrimarySecondary)
+              primary ("#{value(wifi.wifissid)}")
+              secondary ("[#{value(wifi.rdnmadr)}]")
+            }
+        }
+     }
+  }
+}

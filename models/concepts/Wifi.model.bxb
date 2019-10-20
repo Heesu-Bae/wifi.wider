@@ -1,5 +1,10 @@
 structure (Wifi) {
   description (Wifi 정보를 담는 structure입니다)
+  property (username) {
+    type (UserName)
+    min (Optional) max (One)
+  }
+
   property (wifissid) {
     type (WifiSSID) // wifi ssid
     min (Required) max (One)
@@ -15,13 +20,13 @@ structure (Wifi) {
     min (Required) max (One)
   }
 
-  property (latitude) {
-    type (Latitude) // 위도
+  property (point) {
+    type (Point)
     min (Required) max (One)
   }
 
-  property (longitude) {
-    type (Longitude) // 경도
+  property (flag) {
+    type (core.Boolean)
     min (Required) max (One)
   }
 }

@@ -27,13 +27,14 @@ module.exports.function = function getWifiInfo (near, point, self) {
   console.log(self);
   
   let result = [];
+  let temp_list =[];
   
   if(near != undefined){
     let distance = 0;
     
     for(let i = 0; i < dummyData.length; i++){
       distance = getDistance(point.point.latitude, point.point.longitude,
-                             dummyData[i].latitude, dummyData[i].longitude);      
+                             dummyData[i].point.point.latitude, dummyData[i].point.point.longitude);      
       
       if(distance < 1){
         if(self.nameInfo != undefined){
@@ -47,13 +48,30 @@ module.exports.function = function getWifiInfo (near, point, self) {
         }
               
         dummyData[i].flag = true;
-        result.push(dummyData[i]);
+
+        temp_list.push(dummyData[i].username);
+        temp_list.push(dummyData[i].wifissid);
+        temp_list.push(dummyData[i].rdnmadr);
+        temp_list.push(dummyData[i].lnmadr);
+        temp_list.push(dummyData[i].point);
+        temp_list.push(dummyData[i].flag);
+
+        result.push(temp_list);
       }   
     }
    
   }else{    
     for(let i = 0; i < dummyData.length; i++){
-      result.push(dummyData[i]);
+      dummyData[i].username = '사용자';
+      dummyData[i].flag = true;
+      temp_list.push(dummyData[i].username);
+      temp_list.push(dummyData[i].wifissid);
+      temp_list.push(dummyData[i].rdnmadr);
+      temp_list.push(dummyData[i].lnmadr);
+      temp_list.push(dummyData[i].point);
+      temp_list.push(dummyData[i].flag);
+
+      result.push(temp_list);
     }
   }
   

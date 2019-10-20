@@ -1,5 +1,5 @@
 train (t-n2wald5u1d8jq4g2ptmj9h3kz) {
-  utterance ([g:wifi.wider.Wifi] 와이더에서, 와이파이 어디있어?)
+  utterance ([g:Wifi] 와이더에서, 와이파이 어디있어?)
   plan (Y2Bk4C/PTMvUK89MSS3SCwcyGUCAEUQAAA==)
-  last-modified (1571560969996)
+  last-modified (1571565188552)
 }

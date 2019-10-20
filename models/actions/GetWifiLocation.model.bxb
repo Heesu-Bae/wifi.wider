@@ -8,8 +8,8 @@ action (GetWifiLocation) {
       min (Required) max (One)
       default-init{
         intent{
-          //goal: self.GetImaginarySelf // 사용자 더미 데이터를 가져오는 함수, 테스트시 사용
-          goal: self.GetSelf // 실제 마켓플레이스 배포시에 사용
+          goal: self.GetImaginarySelf // 사용자 더미 데이터를 가져오는 함수, 테스트시 사용
+          //goal: self.GetSelf // 실제 마켓플레이스 배포시에 사용
         }
       }
     }

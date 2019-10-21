@@ -1,10 +1,10 @@
 capsule-info {
   display-name (와이더)
   dispatch-name (와이더)
-  developer-name (GYHS)
+  developer-name (Kim Gayoung and Bae Huisu)
   icon-asset (./images/bixby_launcher.png)
+  privacy-policy-url (https://github.com/Heesu-Bae/wifi.wider/blob/master/README.md)
   description ("내 주변 공공 Wi-Fi 위치와 정보를 알려주는 캡슐입니다.")
-  website-url (https://https://github.com/Heesu-Bae/wifi.wider)
   search-keywords {
     keyword (와이더)
     keyword (Wider)

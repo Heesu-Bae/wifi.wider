@@ -1,6 +1,6 @@
 capsule {
   id (wifi.wider)
-  version (0.1.0)
+  version (1.0.0)
   format (3)
   targets {
     target (bixby-mobile-en-US) {enabled (false)}
@@ -25,5 +25,10 @@ capsule {
     import (viv.common) { as (common) version-from (entity) }
     import (viv.geo) { as (geo) version-from (entity) }
     import (viv.self) { version(3.5.122) as (self) }
+  }
+
+  store-sections {
+    section (Local)
+    section (Utilities)
   }
 }

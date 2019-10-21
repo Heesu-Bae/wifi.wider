@@ -7,17 +7,17 @@ structure (Wifi) {
 
   property (wifissid) {
     type (WifiSSID) // wifi ssid
-    min (Required) max (One)
+    min (Optional) max (One)
   }
   
   property (rdnmadr) {
     type (Rdnmadr) // 도로명주소
-    min (Required) max (One)
+    min (Optional) max (One)
   }
   
   property (lnmadr) {
     type (Lnmadr) // 지번주소
-    min (Required) max (One)
+    min (Optional) max (One)
   }
 
   property (flag) {

@@ -22,12 +22,9 @@ module.exports.function = function getWifiInfo (near, point, self) {
   const dummyData = require("./data/Wifi_data.js");
   const console = require('console');
   
-  // console.log(near);
-  // console.log(point);
-  console.log(self);
+  //console.log(self);
   
   let result = [];
-  let temp_list =[];
   
   if(near != undefined){
     let distance = 0;
@@ -36,10 +33,11 @@ module.exports.function = function getWifiInfo (near, point, self) {
       distance = getDistance(point.point.latitude, point.point.longitude,
                              dummyData[i].point.point.latitude, dummyData[i].point.point.longitude);  
       
-      if(distance < 40){
+      if(distance < 30){
         if(self.nameInfo != undefined){
           if(self.nameInfo.nickName){
             dummyData[i].username = self.nameInfo.nickName;
+            console.log(dummyData[i].username);
           }else{
             dummyData[i].username = self.nameInfo.structuredName;
           }  
@@ -48,34 +46,14 @@ module.exports.function = function getWifiInfo (near, point, self) {
         }
               
         dummyData[i].flag = true;
-
-        temp_list.push(dummyData[i].username);
-        temp_list.push(dummyData[i].wifissid);
-        temp_list.push(dummyData[i].rdnmadr);
-        temp_list.push(dummyData[i].lnmadr);
-        temp_list.push(dummyData[i].point);
-        temp_list.push(dummyData[i].flag);
-        console.log(temp_list);
-        result.push(temp_list);
+        
+        result.push(dummyData[i]);
       }   
     }
    
   }else{    
     for(let i = 0; i < dummyData.length; i++){
-      dummyData[i].username = '사용자';
-      dummyData[i].flag = true;
-      temp_list.push(dummyData[i].username);
-      temp_list.push(dummyData[i].wifissid);
-      temp_list.push(dummyData[i].rdnmadr);
-      if(dummyData[i].lnmadr === "") {
-        dummyData[i].lnmadr = "none";
-      }
-      temp_list.push(dummyData[i].lnmadr);
-      temp_list.push(dummyData[i].point);
-      temp_list.push(dummyData[i].flag);
-      console.log(temp_list);
-
-      result.push(temp_list);
+      result.push(dummyData[i]);
     }
   }
   

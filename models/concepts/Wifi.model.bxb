@@ -20,13 +20,13 @@ structure (Wifi) {
     min (Required) max (One)
   }
 
-  property (point) {
-    type (Point)
+  property (flag) {
+    type (core.Boolean)
     min (Required) max (One)
   }
 
-  property (flag) {
-    type (core.Boolean)
+  property (point) {
+    type (Point)
     min (Required) max (One)
   }
 }

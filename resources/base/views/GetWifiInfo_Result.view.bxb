@@ -12,7 +12,7 @@ result-view {
       if(this.flag){
         template ("[#{value(this.username)} 님,] 주변 1km이내의 공용 Wi-fi들을 가져와 보았어요!")
       }else{
-        template ("맛집들을 가져와 보았어요.")
+        template ("현재 위치로부터 1km 내의 공용 Wi-Fi들을 확인해보세요!")
       }    
     }   
   }

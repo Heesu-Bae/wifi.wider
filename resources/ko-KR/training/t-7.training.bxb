@@ -3,3 +3,13 @@ train (t-7544boazmjqrw0uikn63yf6yw) {
   plan (Y2Bh4C/PTMvUK89MSS3SCwcyGaSQBNxTS0BiPvnJiSWZ+XkMvGWZZXrFqTlpesFAAkWvX2piEQMzAyMDE5BkANIgCAFMQAwUAwA=)
   last-modified (1571569634138)
 }
+train (t-7ia4jkifanvntlmyuwqxq9g52) {
+  utterance ("[g:wifi.wider.Wifi] 와이더에서, 내 (주위)[v:wifi.wider.Near:Nearby] 와이파이 알려줘")
+  plan (Y2Bh4C/PTMvUK89MSS3SCwcyGaSQBNxTS0BiPvnJiSWZ+XkMvGWZZXrFqTlpesFAAkWvX2piEQMzAyMDE5BkANIgCAFMQAwUAwA=)
+  last-modified (1572492141487)
+}
+train (t-7uud20jbswagvjc4fx3bnxrjq) {
+  utterance ("[g:Wifi] 와이더에서, 내 (주위)[v:Near:Nearby] 와이파이 찾아")
+  plan (Y2Bh4C/PTMvUK89MSS3SCwcyGaSQBNxTS0BiPvnJiSWZ+XkMvGWZZXrFqTlpesFAAkWvX2piEQMzAyMDE5BkANIgCAFMQAwUAwA=)
+  last-modified (1572492164960)
+}

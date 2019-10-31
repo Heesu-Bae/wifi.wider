@@ -3,3 +3,8 @@ train (t-fnugzrseg2surg094yux0hp2h) {
   plan (Y2BiEC/LLNNLT83Xc0/NT85PSU1xTEkpSi0uZpAqz0zL1CvPTEktAsqVBKWWpRYVpwbkZ+aVMDACIQMUA0kA)
   last-modified (1571569507780)
 }
+train (t-fzhrjholjgn9jjavche3hdi0m) {
+  utterance ("[g:Wifi] 와이더에서, 내 (주위)[v:Near:Nearby] 와이파이 찾아줘")
+  plan (Y2Bh4C/PTMvUK89MSS3SCwcyGaSQBNxTS0BiPvnJiSWZ+XkMvGWZZXrFqTlpesFAAkWvX2piEQMzAyMDE5BkANIgCAFMQAwUAwA=)
+  last-modified (1572492189489)
+}

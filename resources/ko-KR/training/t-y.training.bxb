@@ -1,0 +1,5 @@
+train (t-yn6ihph3kvobslhwjg6kt70ua) {
+  utterance ([g:GetReversePoint] 와이더에서, 내 위치 찾아줄래)
+  plan (Y2BiEC/LLNNLT83Xc0/NT85PSU1xTEkpSi0uZpAqz0zL1CvPTEktAsqVBKWWpRYVpwbkZ+aVMDACIQMUA0kA)
+  last-modified (1572492030712)
+}

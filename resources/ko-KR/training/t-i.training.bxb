@@ -1,5 +1,5 @@
-train (t-k2430pkyjgybx6h91ptw1fr3x) {
+train (t-ir98l9mg9mcoz58ey9wfav3rh) {
   utterance ("[g:Wifi] 와이더에서, 내 (주위)[v:Near:Nearby] 와이파이 알려줄래")
   plan (Y2Bh4C/PTMvUK89MSS3SCwcyGaSQBNxTS0BiPvnJiSWZ+XkMvGWZZXrFqTlpesFAAkWvX2piEQMzAyMDE5BkANIgCAFMQAwUAwA=)
-  last-modified (1572492273856)
+  last-modified (1572494128590)
 }

@@ -1,5 +1,10 @@
 train (t-n2wald5u1d8jq4g2ptmj9h3kz) {
-  utterance ([g:Wifi] 와이더에서, 와이파이 어디있어?)
-  plan (Y2Bk4C/PTMvUK89MSS3SCwcyGUCAEUQAAA==)
-  last-modified (1571565188552)
+  utterance ("[g:Wifi] 와이더에서, (와이파이)[v:Near:Nearby] 어디있어?")
+  plan (Y2Bh4C/PTMvUK89MSS3SCwcyGaSQBNxTS0BiPvnJiSWZ+XkMvGWZZXrFqTlpesFAAkWvX2piEQMzAyMDE5BkANIgCAFMQAwUAwA=)
+  last-modified (1572489763311)
+}
+train (t-n5l8cq81rlfjoa2kyk3l80wq7) {
+  utterance ("[g:Wifi] 와이더에서, 내 (주변)[v:Near:Nearby] 와이파이 찾아줄래")
+  plan (Y2Bh4C/PTMvUK89MSS3SCwcyGaSQBNxTS0BiPvnJiSWZ+XkMvGWZZXrFqTlpesFAAkWvX2piEQMzAyMDE5BkANIgCAFMQAwUAwA=)
+  last-modified (1572491873451)
 }

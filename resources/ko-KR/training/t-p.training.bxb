@@ -1,0 +1,5 @@
+train (t-p5xddjglcuzs19cu89aex8tw9) {
+  utterance ("[g:wifi.wider.Wifi] 와이더에서, 내 (주위)[v:Near:Nearby] 와이파이 검색해")
+  plan (Y2Bh4C/PTMvUK89MSS3SCwcyGaSQBNxTS0BiPvnJiSWZ+XkMvGWZZXrFqTlpesFAAkWvX2piEQMzAyMDE5BkANIgCAFMQAwUAwA=)
+  last-modified (1572494085854)
+}

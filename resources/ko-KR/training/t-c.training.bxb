@@ -1,5 +1,25 @@
+train (t-c2hkfr486p7n5uual5g8c31du) {
+  utterance ("[g:wifi.wider.Wifi] 와이더에서, 내 (주위)[v:wifi.wider.Near:Nearby] 와이파이 알려줘")
+  plan (Y2Bh4C/PTMvUK89MSS3SCwcyGaSQBNxTS0BiPvnJiSWZ+XkMvGWZZXrFqTlpesFAAkWvX2piEQMzAyMDE5BkANIgCAFMQAwUAwA=)
+  last-modified (1572493998674)
+}
+train (t-c9m7yp6tjye8j0gngglemuw5h) {
+  utterance ("[g:Wifi] 와이더에서, 내 (주위)[v:Near:Nearby] 와이파이 찾아줘")
+  plan (Y2Bh4C/PTMvUK89MSS3SCwcyGaSQBNxTS0BiPvnJiSWZ+XkMvGWZZXrFqTlpesFAAkWvX2piEQMzAyMDE5BkANIgCAFMQAwUAwA=)
+  last-modified (1572494044779)
+}
+train (t-cbhsiv05t8q3uenvwx1ykwu7v) {
+  utterance ([g:GetReversePoint] 와이더에서, 내 위치 찾아)
+  plan (Y2BiEC/LLNNLT83Xc0/NT85PSU1xTEkpSi0uZpAqz0zL1CvPTEktAsqVBKWWpRYVpwbkZ+aVMDACIQMUA0kA)
+  last-modified (1572492015031)
+}
+train (t-cjyttwh7mkpxlrvkjhz1uifv8) {
+  utterance ([g:GetReversePoint] 와이더에서, 내 위치 검색해)
+  plan (Y2BiEC/LLNNLT83Xc0/NT85PSU1xTEkpSi0uZpAqz0zL1CvPTEktAsqVBKWWpRYVpwbkZ+aVMDACIQMUA0kA)
+  last-modified (1572492054946)
+}
 train (t-cnwboov0bd5mz1f4cl3u8dfl6) {
-  utterance ([g:Wifi] 와이더에서, 와이파이 찾아줘)
-  plan (Y2Bk4C/PTMvUK89MSS3SCwcyGUCAEUQAAA==)
-  last-modified (1571560577423)
+  utterance ("[g:Wifi] 와이더에서, (와이파이)[v:Near:Nearby] 찾아줘")
+  plan (Y2Bh4C/PTMvUK89MSS3SCwcyGaSQBNxTS0BiPvnJiSWZ+XkMvGWZZXrFqTlpesFAAkWvX2piEQMzAyMDE5BkANIgCAFMQAwUAwA=)
+  last-modified (1572489806496)
 }

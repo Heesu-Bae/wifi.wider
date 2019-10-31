@@ -4,7 +4,7 @@ train (t-xvpoi12i1z4hka8699fs3ky1k) {
   last-modified (1571564456405)
 }
 train (t-xym4b7vvfnw9fughyzprqvufd) {
-  utterance ([g:Wifi] 와이더에서, 와이파이 어딨어?)
-  plan (Y2Bk4C/PTMvUK89MSS3SCwcyGUCAEUQAAA==)
-  last-modified (1571565173882)
+  utterance ("[g:Wifi] 와이더에서, (와이파이)[v:Near:Nearby] 어딨어?")
+  plan (Y2Bh4C/PTMvUK89MSS3SCwcyGaSQBNxTS0BiPvnJiSWZ+XkMvGWZZXrFqTlpesFAAkWvX2piEQMzAyMDE5BkANIgCAFMQAwUAwA=)
+  last-modified (1572489820742)
 }

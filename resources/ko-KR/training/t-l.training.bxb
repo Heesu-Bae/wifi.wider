@@ -1,0 +1,10 @@
+train (t-lkysj918jdi63pg6dpaeptvj3) {
+  utterance ("[g:wifi.wider.Wifi] 와이더에서, 내 (주변)[v:wifi.wider.Near:Nearby] 와이파이 알려줘")
+  plan (Y2Bh4C/PTMvUK89MSS3SCwcyGaSQBNxTS0BiPvnJiSWZ+XkMvGWZZXrFqTlpesFAAkWvX2piEQMzAyMDE5BkANIgCAFMQAwUAwA=)
+  last-modified (1572491842123)
+}
+train (t-lsjvy2bnjjpnoff2nvq6kvtwf) {
+  utterance ("[g:Wifi] 와이더에서, 내 (근처)[v:Near:Nearby] 와이파이 알려줘")
+  plan (Y2Bh4C/PTMvUK89MSS3SCwcyGaSQBNxTS0BiPvnJiSWZ+XkMvGWZZXrFqTlpesFAAkWvX2piEQMzAyMDE5BkANIgCAFMQAwUAwA=)
+  last-modified (1572489641534)
+}

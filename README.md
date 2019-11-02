@@ -1,7 +1,22 @@
-# wifi.wider
-- 내 주변 공공 와이파이를 찾아주는 Bixby Capsule
 
-## 개인 정보 이용 약관
+<h1 align="center">Samsung Bixby Challenge 2019 Season 2 : Wider</h1>
+
+<p align="center">
+	<a href="#"><img src="https://img.shields.io/badge/SBC-2019-blue"></a>
+</p>
+
+### 내 주변 공공 와이파이를 찾아주는 Bixby Capsule
+- namespace : wifi
+- capsule ID : wifi.wider
+
+### 참여 인력 : 
+- 개발자 : 김가영
+- 개발자 : 배희수 
+
+### 개발스택 : javascript
+- 개발환경 : Bixby Studio
+
+### 개인 정보 이용 약관
 <와이더>(이하 와이더)은(는) 개인정보보호법에 따라 이용자의 개인정보 보호 및 권익을 보호하고 개인정보와 관련한 이용자의 고충을 원활하게 처리할 수 있도록 다음과 같은 처리방침을 두고 있습니다.
 
 <와이더> 은(는) 회사는 개인정보처리방침을 개정하는 경우 웹사이트 공지사항(또는 개별공지)을 통하여 공지할 것입니다.

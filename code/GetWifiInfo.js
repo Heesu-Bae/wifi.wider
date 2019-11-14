@@ -22,7 +22,7 @@ module.exports.function = function getWifiInfo (near, point, self) {
   const console = require('console');
     
   let result = [];
-  
+  console.log(near)
   if(near != undefined){
     let distance = 0;
     
@@ -48,9 +48,7 @@ module.exports.function = function getWifiInfo (near, point, self) {
     }
    
   }else{    
-    for(let i = 0; i < dummyData.length; i++){
-      result.push(dummyData[i]);
-    }
+    
   }
   
   return result;
